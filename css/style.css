@@ -1,0 +1,13 @@
+.custom {
+  margin-left: -40vh !important; /* Moves half of the circle out of the viewport */
+}
+
+.circle {
+  width: 80vh;
+  height: 80vh;
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  transform: translateY(-50%);
+  object-fit: cover;
+}
