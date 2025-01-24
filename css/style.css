@@ -1,8 +1,13 @@
-.custom {
+@font-face {
+  font-family: "astrology-font";
+  src: url("../fonts/tan-mon-cheri.woff") format('woff');
+}
+
+.custom-container {
   margin-left: -40vh !important; /* Moves half of the circle out of the viewport */
 }
 
-.circle {
+.world {
   width: 80vh;
   height: 80vh;
   position: absolute;
@@ -10,4 +15,19 @@
   left: 0;
   transform: translateY(-50%);
   object-fit: cover;
+}
+
+.world-container{
+  
+}
+
+.title {
+  font-family: astrology-font;
+}
+
+.text{
+  height: 100vh;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
 }
