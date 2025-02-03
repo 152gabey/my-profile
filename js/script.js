@@ -15,7 +15,7 @@ let tl = gsap.timeline({
 
 // Rotate world 
 tl.to(".world", {
-  rotation: 360,
+  rotation: -360,
   ease: "none",
   scrollTrigger: {
     start: 0,
@@ -24,3 +24,6 @@ tl.to(".world", {
     scrub: 1
   }
 })
+
+// Animate arrow movement
+gsap.to(".arrow", {y: -10, yoyo: true, repeat: -1})
